@@ -1,0 +1,11 @@
+:root {
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Sora", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+}
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-sans); }
+.font-display { font-family: var(--font-display); }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
